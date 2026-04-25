@@ -88,28 +88,38 @@
       "orientation": "square"
     },
     {
-      "src": "./assets/photos/914c671afh167302ed25009e4c5bcb85 2.JPG",
+      "src": "./assets/photos/0360f8374me4e6c0d32be081f27bdad0.jpg",
       "alt": "photo 15",
       "orientation": "square"
     },
     {
-      "src": "./assets/photos/3295d8db7p39ca378f16e29a4af3cc49.jpg",
+      "src": "./assets/photos/914c671afh167302ed25009e4c5bcb85 2.JPG",
       "alt": "photo 16",
       "orientation": "square"
     },
     {
-      "src": "./assets/photos/ab997b8c2ue987402b21d2a99f5b958d 2.JPG",
+      "src": "./assets/photos/3295d8db7p39ca378f16e29a4af3cc49.jpg",
       "alt": "photo 17",
       "orientation": "square"
     },
     {
-      "src": "./assets/photos/b9606ceb3lecb2d827990047c057b41d 2.JPG",
+      "src": "./assets/photos/21484bb8dq9ffdacc4eca2c42a4f5db0.JPG",
       "alt": "photo 18",
       "orientation": "square"
     },
     {
-      "src": "./assets/photos/ff3911d72ka4f61425cdc47b52b672d1 2.JPG",
+      "src": "./assets/photos/ab997b8c2ue987402b21d2a99f5b958d 2.JPG",
       "alt": "photo 19",
+      "orientation": "square"
+    },
+    {
+      "src": "./assets/photos/b9606ceb3lecb2d827990047c057b41d 2.JPG",
+      "alt": "photo 20",
+      "orientation": "square"
+    },
+    {
+      "src": "./assets/photos/ff3911d72ka4f61425cdc47b52b672d1 2.JPG",
+      "alt": "photo 21",
       "orientation": "square"
     }
   ],
