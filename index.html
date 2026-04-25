@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CITSILAER</title>
+    <meta name="description" content="CITSILAER" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="background-image"></div>
+    <div class="background-mask"></div>
+
+    <main class="app-shell">
+      <section id="home" class="view view-home is-active" aria-label="home">
+        <div class="home-inner">
+          <button class="name-lock sound-target" type="button" data-open="home">
+            <span class="name-line">C I T S I L A E R</span>
+          </button>
+
+          <nav class="home-menu" aria-label="main">
+            <button class="menu-button sound-target" type="button" data-open="film">
+              影像
+            </button>
+            <button class="menu-button sound-target" type="button" data-open="writing">
+              文字
+            </button>
+            <button class="menu-button sound-target" type="button" data-open="self">
+              我
+            </button>
+          </nav>
+        </div>
+      </section>
+
+      <section id="film" class="view" aria-label="film" hidden>
+        <div class="section-head">
+          <button class="nav-button sound-target" type="button" data-back>
+            <span aria-hidden="true">←</span>
+          </button>
+        </div>
+
+        <div class="photo-layout" id="photo-layout"></div>
+      </section>
+
+      <section id="writing" class="view" aria-label="writing" hidden>
+        <div class="section-head">
+          <button class="nav-button sound-target" type="button" data-back>
+            <span aria-hidden="true">←</span>
+          </button>
+        </div>
+
+        <div class="writing-list" id="writing-list"></div>
+      </section>
+
+      <section id="self" class="view" aria-label="about" hidden>
+        <div class="section-head">
+          <button class="nav-button sound-target" type="button" data-back>
+            <span aria-hidden="true">←</span>
+          </button>
+        </div>
+
+        <div class="about-card">
+          <p class="about-line">一个人</p>
+          <div class="social-list">
+            <a class="social-link sound-target" href="https://www.youtube.com/@citsilaer" target="_blank" rel="noreferrer">
+              YouTube / citsilaer
+            </a>
+            <a class="social-link sound-target" href="https://xhslink.com/m/4ZeW1dUKfSb" target="_blank" rel="noreferrer">
+              小红书 / citsilaer
+            </a>
+            <a class="social-link sound-target" href="mailto:gssc21@yahoo.com">
+              邮箱 / gssc21@yahoo.com
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-back sound-target" type="button" data-close-lightbox>
+        <span aria-hidden="true">←</span>
+      </button>
+      <button class="lightbox-nav sound-target lightbox-prev" type="button" data-lightbox-prev>
+        <span aria-hidden="true">‹</span>
+      </button>
+      <figure class="lightbox-figure">
+        <img id="lightbox-image" src="" alt="" />
+      </figure>
+      <button class="lightbox-nav sound-target lightbox-next" type="button" data-lightbox-next>
+        <span aria-hidden="true">›</span>
+      </button>
+    </div>
+
+    <div class="text-modal" id="text-modal" aria-hidden="true">
+      <button class="text-modal-back sound-target" type="button" data-close-text>
+        <span aria-hidden="true">←</span>
+      </button>
+      <div class="text-modal-body" id="text-modal-body"></div>
+    </div>
+
+    <script src="./content/site-content.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
